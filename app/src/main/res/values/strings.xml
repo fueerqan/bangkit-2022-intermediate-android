@@ -4,6 +4,7 @@
     <string name="label_canvas">Canvas</string>
     <string name="label_animation">Animation</string>
     <string name="label_motion">Motion Layout</string>
+    <string name="label_media" translatable="false">Media</string>
     <string name="label_substract" translatable="false">-</string>
     <string name="label_plus" translatable="false">+</string>
     <string name="label_zero" translatable="false">0</string>
