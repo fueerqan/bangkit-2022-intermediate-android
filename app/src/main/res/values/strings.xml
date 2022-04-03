@@ -7,4 +7,5 @@
     <string name="label_substract">-</string>
     <string name="label_plus">+</string>
     <string name="label_zero">0</string>
+    <string name="label_welcome_to_motion_layout">Welcome to Motion Layout</string>
 </resources>

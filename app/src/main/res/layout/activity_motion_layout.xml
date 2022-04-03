@@ -1,10 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_motion_layout_scene"
     tools:context=".motion_layout.MotionLayoutActivity">
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_android"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_android" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_leaf_1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:elevation="8dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/ic_leaf" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_leaf_2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:elevation="8dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/ic_leaf" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_leaf_3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:elevation="8dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/ic_leaf" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_item_motion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraint_card_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="48dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:text="@string/label_welcome_to_motion_layout"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
