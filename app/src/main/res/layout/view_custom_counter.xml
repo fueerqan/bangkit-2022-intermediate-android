@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout_counter_custom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_substract_custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_substract" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edt_counter_custom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="false"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="@string/label_zero" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_plus_custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_plus" />
+
+</LinearLayout>
