@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IntermediateAndroid">
         <activity
+            android:name=".canvas.CanvasActivity"
+            android:exported="false" />
+        <activity
             android:name=".custom_view.CustomViewActivity"
             android:exported="false" />
         <activity

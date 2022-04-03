@@ -3,6 +3,7 @@ package com.furqan.intermediateandroid
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.furqan.intermediateandroid.canvas.CanvasActivity
 import com.furqan.intermediateandroid.custom_view.CustomViewActivity
 import com.furqan.intermediateandroid.databinding.ActivityMainBinding
 
@@ -18,6 +19,15 @@ class MainActivity : AppCompatActivity() {
                     Intent(
                         this@MainActivity,
                         CustomViewActivity::class.java
+                    )
+                )
+            }
+
+            btnGoToCanvas.setOnClickListener {
+                startActivity(
+                    Intent(
+                        this@MainActivity,
+                        CanvasActivity::class.java
                     )
                 )
             }
