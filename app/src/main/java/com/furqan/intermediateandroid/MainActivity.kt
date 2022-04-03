@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.furqan.intermediateandroid.canvas.CanvasActivity
 import com.furqan.intermediateandroid.custom_view.CustomViewActivity
 import com.furqan.intermediateandroid.databinding.ActivityMainBinding
+import com.furqan.intermediateandroid.property_animation.AnimationActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,6 +29,15 @@ class MainActivity : AppCompatActivity() {
                     Intent(
                         this@MainActivity,
                         CanvasActivity::class.java
+                    )
+                )
+            }
+
+            btnGoToAnimation.setOnClickListener {
+                startActivity(
+                    Intent(
+                        this@MainActivity,
+                        AnimationActivity::class.java
                     )
                 )
             }

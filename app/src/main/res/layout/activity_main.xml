@@ -25,4 +25,13 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_go_to_custom_view" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_go_to_animation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/label_animation"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_go_to_canvas" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
