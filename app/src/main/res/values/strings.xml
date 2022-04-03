@@ -3,6 +3,7 @@
     <string name="label_custom_view">Custom View</string>
     <string name="label_canvas">Canvas</string>
     <string name="label_animation">Animation</string>
+    <string name="label_motion">Motion Layout</string>
     <string name="label_substract">-</string>
     <string name="label_plus">+</string>
     <string name="label_zero">0</string>

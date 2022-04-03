@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IntermediateAndroid">
         <activity
+            android:name=".motion_layout.MotionLayoutActivity"
+            android:exported="false" />
+        <activity
             android:name=".property_animation.AnimationActivity"
             android:exported="false" />
         <activity
