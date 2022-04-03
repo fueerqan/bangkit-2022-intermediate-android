@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.furqan.intermediateandroid.canvas.CanvasActivity
 import com.furqan.intermediateandroid.custom_view.CustomViewActivity
 import com.furqan.intermediateandroid.databinding.ActivityMainBinding
+import com.furqan.intermediateandroid.media.MediaActivity
 import com.furqan.intermediateandroid.motion_layout.MotionLayoutActivity
 import com.furqan.intermediateandroid.property_animation.AnimationActivity
 
@@ -48,6 +49,15 @@ class MainActivity : AppCompatActivity() {
                     Intent(
                         this@MainActivity,
                         MotionLayoutActivity::class.java
+                    )
+                )
+            }
+
+            btnGoToMedia.setOnClickListener {
+                startActivity(
+                    Intent(
+                        this@MainActivity,
+                        MediaActivity::class.java
                     )
                 )
             }
