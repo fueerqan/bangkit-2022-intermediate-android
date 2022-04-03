@@ -6,4 +6,7 @@
     <string name="label_animation">Animasi</string>
     <string name="label_motion">Tata Letak Gerak</string>
     <string name="label_welcome_to_motion_layout">Selamat Datang di Tata Letak Gerak !</string>
+    <string name="label_camera">Kamera</string>
+    <string name="label_camera_x">Kamera X</string>
+    <string name="label_gallery">Galeri</string>
 </resources>

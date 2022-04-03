@@ -8,4 +8,7 @@
     <string name="label_plus" translatable="false">+</string>
     <string name="label_zero" translatable="false">0</string>
     <string name="label_welcome_to_motion_layout">Welcome to Motion Layout</string>
+    <string name="label_camera">Camera</string>
+    <string name="label_camera_x">Camera X</string>
+    <string name="label_gallery">Gallery</string>
 </resources>
