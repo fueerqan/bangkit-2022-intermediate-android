@@ -6,4 +6,40 @@
     android:layout_height="match_parent"
     tools:context=".custom_view.CustomViewActivity">
 
+    <LinearLayout
+        android:id="@+id/linear_layout_counter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_substract"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_substract" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edt_counter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="false"
+            android:gravity="center"
+            android:text="@string/label_zero" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_plus" />
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
