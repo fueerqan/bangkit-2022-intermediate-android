@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Intermediate Android</string>
+    <string name="label_custom_view">Custom View</string>
 </resources>
