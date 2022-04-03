@@ -33,15 +33,6 @@
         android:text="@string/label_gallery"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@id/btn_camera"
-        app:layout_constraintRight_toLeftOf="@id/btn_camera_x" />
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_camera_x"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="@string/label_camera_x"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toRightOf="@id/btn_gallery"
         app:layout_constraintRight_toRightOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
