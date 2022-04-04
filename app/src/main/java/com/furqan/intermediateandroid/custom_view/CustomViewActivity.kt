@@ -21,6 +21,14 @@ class CustomViewActivity : AppCompatActivity() {
                 val counter = edtCounter.text.toString().toInt() + 1
                 edtCounter.setText(counter.toString())
             }
+
+            myCustomCounter.setMinMaxValue(maxValue = 10)
+            myCustomCounter.setStartValue(3)
+
+            myCustomCounter1.setMinMaxValue(minValue = 0)
+
+            myCustomCounter2.setMinMaxValue(4, 7)
+            myCustomCounter2.setStartValue(5)
         }
     }
 }

@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".custom_view.CustomViewActivity">
 
     <LinearLayout
         android:id="@+id/linear_layout_counter"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="8dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:padding="8dp">
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_substract"
@@ -42,4 +40,31 @@
 
     </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <com.furqan.intermediateandroid.custom_view.CustomCounterView
+        android:id="@+id/my_custom_counter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <com.furqan.intermediateandroid.custom_view.CustomCounterView
+        android:id="@+id/my_custom_counter_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <com.furqan.intermediateandroid.custom_view.CustomCounterView
+        android:id="@+id/my_custom_counter_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <com.furqan.intermediateandroid.custom_view.CustomCounterView
+        android:id="@+id/my_custom_counter_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:minimumValue="11"
+        app:maximumValue="15"
+        app:startValue="12"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
