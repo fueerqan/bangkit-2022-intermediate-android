@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Android Mahir</string>
-    <string name="label_custom_view">Tampilan Custom</string>
+    <string name="label_custom_view">Tampilan Kustom</string>
     <string name="label_canvas">Kanvas</string>
     <string name="label_animation">Animasi</string>
     <string name="label_motion">Tata Letak Gerak</string>
