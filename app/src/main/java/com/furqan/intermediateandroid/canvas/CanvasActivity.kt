@@ -10,7 +10,5 @@ class CanvasActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val binding = ActivityCanvasBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-
     }
 }
