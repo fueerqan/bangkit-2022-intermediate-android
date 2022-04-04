@@ -90,7 +90,8 @@
             android:alpha="1"
             android:elevation="8dp"
             android:rotationX="180"
-            motion:layout_constraintTop_toTopOf="@+id/card_item_motion" />
+            motion:layout_constraintTop_toTopOf="@+id/card_item_motion"
+            android:rotationY="180" />
         <Constraint
             android:id="@+id/iv_leaf_2"
             android:layout_width="80dp"

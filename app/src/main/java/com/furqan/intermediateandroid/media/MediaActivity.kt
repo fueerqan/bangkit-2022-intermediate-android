@@ -15,12 +15,13 @@ class MediaActivity : AppCompatActivity() {
     private val cameraResult =
         registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
             if (it.resultCode == RESULT_OK) {
-                val image = it.data?.data as Bitmap?
+                val image = it.data?.extras?.get("data") as Bitmap?
                 image?.let { bitmap ->
                     binding.ivThumbnail.setImageBitmap(bitmap)
                 }
             }
         }
+
     private val galleryResult =
         registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
             if (it.resultCode == RESULT_OK) {
